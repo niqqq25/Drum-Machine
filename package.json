@@ -11,12 +11,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cssnano": "^4.1.10",
-    "parcel-bundler": "^1.12.3"
+    "cssnano": "^4.1.10"
   },
   "dependencies": {
     "express": "^4.17.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "parcel-bundler": "^1.12.3"
   }
 }
