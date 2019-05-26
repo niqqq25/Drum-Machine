@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "parcel ./src/index.html",
+    "build": "parcel build src/index.html --out-dir prod"
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.20.1"
+  },
   "dependencies": {
-    "express": "^4.16.4"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
