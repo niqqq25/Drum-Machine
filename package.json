@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "prestart": "parcel build ./src/index.html",
+    "prestart": "parcel build ./src/index.html --public-url ./",
     "dev": "parcel ./src/index.html"
   },
   "author": "",
